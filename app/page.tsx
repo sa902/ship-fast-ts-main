@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-center text-center gap-12 p-8">
+      <main className="bg-[#272727] flex min-h-screen flex-col text-[#b9b0b0] items-center justify-center text-center gap-12 p-8">
         <h1 className="text-3xl font-extrabold">Ship Fast ⚡️</h1>
 
         <p className="text-lg opacity-80">
