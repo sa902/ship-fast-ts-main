@@ -1,8 +1,22 @@
+import Image from "next/image";
+import logo from '@/app/icon.png'
 export default function Page() {
   return (
     <>
+
       <main className="bg-[#272727] flex min-h-screen flex-col text-[#bdb3b3] items-center justify-center text-center gap-12 p-8">
-        <h1 className="text-3xl font-extrabold">Ship Fast ⚡️</h1>
+        {/* <h1 className="text-3xl font-extrabold">Ship Fast ⚡️</h1> */}
+        <div className='flex flex-row'>
+          <Image
+            src={logo}
+            alt={`logo`}
+            className="w-8 mr-2"
+            placeholder="blur"
+            priority={true}
+          />
+
+          <span className="font-extrabold text-lg">Ship Fast</span>
+        </div>
 
         <p className="text-lg opacity-80">
           The start of your new startup... What are you gonna build?
