@@ -7,11 +7,11 @@ import ButtonCheckout from "./ButtonCheckout";
 
 const Pricing = () => {
   return (
-    <section className="bg-base-200 overflow-hidden" id="pricing">
+    <section className="bg-primary overflow-hidden" id="pricing">
       <div className="py-24 px-8 max-w-5xl mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <p className="font-medium text-primary mb-8">Pricing</p>
-          <h2 className="font-bold text-3xl lg:text-5xl tracking-tight">
+          <h2 className="font-bold text-secondary text-3xl lg:text-5xl tracking-tight">
             Save hours of repetitive code and ship faster!
           </h2>
         </div>
@@ -20,9 +20,9 @@ const Pricing = () => {
           {config.stripe.plans.map((plan) => (
             <div key={plan.priceId} className="relative w-full max-w-lg">
               {plan.isFeatured && (
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
                   <span
-                    className={`badge text-xs text-primary-content font-semibold border-0 bg-primary`}
+                    className={`badge text-m text-primary font-bold border-0 bg-secondary`}
                   >
                     POPULAR
                   </span>
@@ -31,11 +31,11 @@ const Pricing = () => {
 
               {plan.isFeatured && (
                 <div
-                  className={`absolute -inset-[1px] rounded-[9px] bg-primary z-10`}
+                  className={`absolute -inset-[3px] rounded-[9px] bg-secondary z-0`}
                 ></div>
               )}
 
-              <div className="relative flex flex-col h-full gap-5 lg:gap-8 z-10 bg-base-100 p-8 rounded-lg">
+              <div className="relative flex flex-col h-full gap-5 lg:gap-8 z-0 bg-base-100 p-8 rounded-lg">
                 <div className="flex justify-between items-center gap-4">
                   <div>
                     <p className="text-lg lg:text-xl font-bold">{plan.name}</p>
