@@ -2,25 +2,29 @@ import Image from "next/image";
 
 const CTA = () => {
   return (
-    <section className="relative hero overflow-hidden min-h-screen">
-      <Image
-      src="/images/ctabg.avif"
-        alt="Background"
-        className="object-cover w-full"
-        fill
-      />
-      <div className="relative hero-overlay bg-neutral bg-opacity-70"></div>
-      <div className="relative hero-content text-center text-neutral-content p-8">
-        <div className="flex flex-col items-center max-w-xl p-8 md:p-0">
-          <h2 className="font-bold text-3xl md:text-5xl tracking-tight mb-8 md:mb-12">
-            Boost your app, launch, earn
+    <section className="relative flex flex-col overflow-hidden min-h-screen justify-end">
+      {/* <div
+      // src="/images/ctabg.avif"
+        // alt="Background"
+        className=" w-full"
+        // fill
+      /> */}
+          <Image 
+            src="/images/nameLogoGreen.svg"
+            alt="Logo"
+            className="w-1/2 mx-auto px-8"
+            fill
+            />
+      <div className="relative  bg-neutral bg-opacity-70 "></div>
+      <div className="relative text-primary p-8 flex flex-col items-center justify-center" >
+        <div className=" flex flex-col items-center justify-center max-w-xxl p-8 mb-16 md:mb-0 md:p-0">
+          <h2 className="font-bold text-2xl  md:text-5xl tracking-tight mb-8 md:mb-12">
+          Cannabis club management, elevated.
           </h2>
-          <p className="text-lg opacity-80 mb-12 md:mb-16">
-            Don&apos;t waste time integrating APIs or designing a pricing
-            section...
+          <p className="text-lg font-bold opacity-80 mb-12 md:mb-16">
+          Simplify your club management with our all-in-one digital system. No need to write on paper, only roll it. 
           </p>
-
-          <button className="btn btn-primary btn-wide">Get ShipFast</button>
+          {/* <button className="btn btn-primary btn-wide">Get Leaf Nodes</button> */}
         </div>
       </div>
     </section>

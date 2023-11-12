@@ -36,7 +36,7 @@ const ContactUs = () => {
               <label htmlFor="message" className="block text-gray-600">Message</label>
               <textarea id="message" name="message" rows="4" className="w-full p-2 border border-gray-300 rounded"></textarea>
             </div>
-            <button type="submit" className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Send Message</button>
+            <button type="submit" className="btn btn-primary btn-wide">Send Message</button>
           </form>
         </div>
       </main>
