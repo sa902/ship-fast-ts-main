@@ -13,16 +13,20 @@ const links: {
   label: string;
 }[] = [
   {
+    href: "/#features",
+    label: "What do we do?",
+  },
+  {
     href: "/#pricing",
     label: "Pricing",
   },
   {
-    href: "/#testimonials",
-    label: "Reviews",
-  },
-  {
     href: "/#faq",
     label: "FAQ",
+  },
+  {
+    href: "/#contact",
+    label: "Reviews",
   },
 ];
 

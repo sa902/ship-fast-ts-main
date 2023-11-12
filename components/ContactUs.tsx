@@ -18,7 +18,7 @@ const ContactUs = () => {
   return (
     <>
     
-    <div>
+    <div id="contact">
       <main className="container mx-auto flex justify-center items-center py-8 ">
         {/* Contact Form */}
         <div className='w-1/2'>
