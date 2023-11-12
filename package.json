@@ -15,6 +15,8 @@
     "@mdx-js/loader": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
     "@next/mdx": "^13.4.19",
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@supabase/supabase-js": "^2.38.4",
     "axios": "^1.4.0",
     "crisp-sdk-web": "^1.0.21",
     "eslint": "8.47.0",
