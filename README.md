@@ -17,9 +17,6 @@
 - [📣 Updates](https://shipfast.beehiiv.com/)
 - [🧑‍💻 Discord](https://shipfa.st/dashboard)
 
-## Support
-
-Reach out to me on [Twitter](https://twitter.com/marc_louvion) or marc@shipfa.st
 
 \_
 
